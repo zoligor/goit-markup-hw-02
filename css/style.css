@@ -36,3 +36,17 @@ body {
 .section-txt {
   color: #757575;
 }
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-studio {
+  color: #ffffff;
+}
+.addres-city {
+  color: #ffffff;
+}
+.addres-mail,
+.addres-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
