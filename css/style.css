@@ -1,0 +1,30 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* основной цвет фонабелый #FFFFFF */
+/* акцент по тексту #2196F3 */
+/* белый прозрачный rgba(255,255,255,0.6 */
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+/* heder */
+.web {
+  color: #2196f3;
+}
+.studio {
+  color: #000000;
+}
+.link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+/* hero */
+.hero-title {
+  color: #ffffff;
+}
