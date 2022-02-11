@@ -27,4 +27,12 @@ body {
 /* hero */
 .hero-title {
   color: #ffffff;
+  background-color: #2f303a;
+}
+/* feature*/
+.section-title {
+  color: #212121;
+}
+.section-txt {
+  color: #757575;
 }
