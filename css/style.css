@@ -1,8 +1,14 @@
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
-/* основной цвет фонабелый #FFFFFF */
+/* основной цвет фона #FFFFFF */
 /* акцент по тексту #2196F3 */
 /* белый прозрачный rgba(255,255,255,0.6 */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
 body {
   background-color: #ffffff;
   color: #757575;
@@ -22,6 +28,14 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: #2196f3;
+}
+.auth-nav-mail,
+.auth-nav-tel {
+  color: #757575;
+}
+.auth-nav-mail:hover,
+.auth-nav-mail:focus {
   color: #2196f3;
 }
 /* hero */
