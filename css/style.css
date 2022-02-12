@@ -13,10 +13,10 @@
 
 
   /* Светлая тема фона */
-
+  --primary-bg-white: #ffffff;
 
   /* Темная тема фона */
-
+  --primary-bg-dark: #2f303a;
 
 
 }
@@ -31,18 +31,20 @@ body{
 
 /* heder */
 .header {
-  background-color: #fff;
+  background-color: var(--primary-bg-white);
+  
 }
 
 .header-link {
 color: var(--secondary-font);
-font-family: "Raleway";
+font-family: "Raleway",sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
 color: #000000;
+text-decoration: none;
 }
 .web { 
 font-family: "Raleway",sans-serif;
@@ -58,6 +60,7 @@ color: #2196F3;
 }
 .nav-list {
   list-style: none;
+  
 }
 
 .nav-link:hover,
@@ -69,14 +72,14 @@ color: #2196F3;
 
 }
 .nav-link{
-font-family: "Roboto";
+font-family: "Roboto",sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: #212121;
-
+text-decoration: none;
 }
 .header-contacts{
 list-style: none;
@@ -85,22 +88,42 @@ list-style: none;
 .header-contacts-mail:focus{
   color: var(--accent-color);
 }
-
+.header-contacts-mail{
+  text-decoration: none;
+}
 
 .header-contacts-tel{
-
+text-decoration: none;
 }
 /* main */
 /* hero */
 .hero{
-
+background-color: #2f303a;
 }
 .hero-title{
+font-family: "Roboto",sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+color: #FFFFFF;
 
 }
 .hero-button-main-button{
+font-family: "Roboto",sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
 
+color: #FFFFFF;
+background-color: #188CE8;
 }
+.hero-button-main-button:hover,
+.hero-button-main-button:focus{
+  color:
+};
+
 /* feature */
 .section{
 
