@@ -1,30 +1,23 @@
 
-:root {
-  /* Основные шрифты */
-  --main-font:'Roboto', sans-serif;
-  --secondary-font:'Raleway', sans-serif;
+:root{
+  /* main font */
+  --main-font:"Roboto", sans-serif
+  --secondary-font:"Raleway", sans-serif
+  /* accent color */
+  --accent-color: #2196F3,
+  /* light background theme */
+  --primary-bg-white: #ffffff
+  /* dark background theme */
 
-  /* Цвет акцента */
-  --accent-color: #2196F3;
-
-  /* Светлая тема текста */
-
-  /* Темная тема текста */
-
-
-  /* Светлая тема фона */
-  --primary-bg-white: #ffffff;
-
-  /* Темная тема фона */
-  --primary-bg-dark: #2f303a;
+  --primary-bg-dark: #2f303a
 }
 /* body */
-body {
+  body {
   font-family: var(--main-font)
-  font-size : 14px;
-  line-height : 1.71;
-  letter-spacing : 0.03em;
-  color : #212121;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 /* heder */
@@ -45,7 +38,7 @@ color: #000000;
 text-decoration: none;
 }
 .web { 
-font-family: "Raleway",sans-serif;
+font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -70,7 +63,7 @@ color: #2196F3;
 
 }
 .nav-link{
-font-family: "Roboto",sans-serif;
+font-family: var(--main-font);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -99,7 +92,7 @@ text-decoration: none;
 background-color: #2f303a;
 }
 .hero-title{
-font-family: "Roboto",sans-serif;
+font-family: var(--main-font);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -108,7 +101,7 @@ color: #FFFFFF;
 
 }
 .hero-button-main-button{
-font-family: "Roboto",sans-serif;
+font-family: var(--main-font);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -126,27 +119,65 @@ background-color: #2196F3;
 .section{
 
 }
-.title{
+/* what are you doing */
+.title, .section-title{
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+
+color: #212121;
 
 }
 .section-list{
-
+list-style: none;
 }
 .section-item{
 
 }
 .subtitle{
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 
+color: #212121;
 }
 .section-txt{
+font-family: var(--main-font);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: #757575;
 
 }
 /* footer */
 .footer{
+background-color: #2f303a;
+}
+.header-link-footer{
+  color: var(--secondary-font);
+font-family: "Raleway",sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 
+color: #FFFFFF;
+text-decoration: none;
 }
 .web{
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 
+color: #2196F3;
 }
 .footer-studio{
 
