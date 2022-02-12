@@ -1,66 +1,144 @@
-/* цвет основного текста #212121 */
-/* вторичный цвет текста #757575 */
-/* основной цвет фона #FFFFFF */
-/* акцент по тексту #2196F3 */
-/* белый прозрачный rgba(255,255,255,0.6 */
+
 :root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
+  /* Основные шрифты */
+  --main-font:'Roboto', sans-serif;
+  --secondary-font:'Raleway', sans-serif;
+
+  /* Цвет акцента */
+  --accent-color: #2196F3;
+
+  /* Светлая тема текста */
+
+  /* Темная тема текста */
+
+
+  /* Светлая тема фона */
+
+
+  /* Темная тема фона */
+
+
+
+}
+/* body */
+body{
+  font-family: var(--main-font)
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
-body {
-  background-color: #ffffff;
-  color: #757575;
+/* heder */
+.header {
+  background-color: #fff;
 }
-.list {
+
+.header-link {
+color: var(--secondary-font);
+font-family: "Raleway";
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+.web { 
+font-family: "Raleway",sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.nav {
+
+}
+.nav-list {
   list-style: none;
 }
-/* heder */
-.web {
-  color: #2196f3;
+
+.nav-link:hover,
+.nav-link:focus{
+  color: var(--accent-color);
 }
-.studio {
-  color: #000000;
+
+.nav-item{
+
 }
-.link {
-  color: #212121;
+.nav-link{
+font-family: "Roboto";
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #212121;
+
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
+.header-contacts{
+list-style: none;
 }
-.auth-nav-mail,
-.auth-nav-tel {
-  color: #757575;
+.header-contacts-mail:hover,
+.header-contacts-mail:focus{
+  color: var(--accent-color);
 }
-.auth-nav-mail:hover,
-.auth-nav-mail:focus {
-  color: #2196f3;
+
+
+.header-contacts-tel{
+
 }
+/* main */
 /* hero */
-.hero-title {
-  color: #ffffff;
-  background-color: #2f303a;
+.hero{
+
 }
-/* feature*/
-.section-title {
-  color: #212121;
+.hero-title{
+
 }
-.section-txt {
-  color: #757575;
+.hero-button-main-button{
+
+}
+/* feature */
+.section{
+
+}
+.title{
+
+}
+.section-list{
+
+}
+.section-item{
+
+}
+.subtitle{
+
+}
+.section-txt{
+
 }
 /* footer */
-.footer {
-  background-color: #2f303a;
+.footer{
+
 }
-.footer-studio {
-  color: #ffffff;
+.web{
+
 }
-.addres-city {
-  color: #ffffff;
+.footer-studio{
+
 }
-.addres-mail,
-.addres-tel {
-  color: rgba(255, 255, 255, 0.6);
+.addres{
+
+}
+.addres-city{
+
+}
+.addres-mail{
+
+}
+.addres-tel{
+
 }
