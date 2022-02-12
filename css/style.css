@@ -1,25 +1,30 @@
 
 :root{
   /* main font */
+
   --main-font:"Roboto", sans-serif;
   --secondary-font:"Raleway", sans-serif;
   /* accent color */
+
   --accent-color: #2196F3;
   --accent-color-btn:#188CE8;
   /* light background theme */
+
   --primary-bg-white: #ffffff;
   --secondary-white-color: #757575;
   /* dark background theme */
+
   --primary-bg-dark: #2f303a;
   --secondary-dark-color: #212121;
 }
+
 /* body */
   body {
   font-family: var(--main-font)
-  font-size: 14px;
+  font-size:14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--secondary-dark-color)
 }
 
 /* heder */
@@ -48,12 +53,9 @@ letter-spacing: 0.03em;
 
 color: var(--accent-color);
 }
-.nav {
 
-}
 .nav-list {
   list-style: none;
-  
 }
 
 .nav-link:hover,
@@ -61,9 +63,6 @@ color: var(--accent-color);
   color: var(--accent-color);
 }
 
-.nav-item{
-
-}
 .nav-link{
 font-family: var(--main-font);
 font-weight: 500;
@@ -118,9 +117,6 @@ background-color: var(--accent-color);
 };
 
 /* feature */
-.section{
-
-}
 /* what are you doing */
 .title, .section-title{
 font-family: var(--main-font);
@@ -134,9 +130,6 @@ color: var(--secondary-dark-color);
 }
 .section-list{
 list-style: none;
-}
-.section-item{
-
 }
 .subtitle{
 font-family: var(--main-font);
@@ -181,14 +174,10 @@ letter-spacing: 0.03em;
 
 color:var(--accent-color);
 }
-.addres{
-
-}
 .addres-list-item{
 list-style: none;
-
 }
-.addres-city {
+.addres-city{
 font-style: normal;
 font-family: var(--main-font);
 font-weight: 400;
@@ -200,7 +189,7 @@ text-decoration: none;
 
 }
 .addres-mail{
-font-family: 
+font-family: var(--main-font);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
