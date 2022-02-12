@@ -1,15 +1,17 @@
 
 :root{
   /* main font */
-  --main-font:"Roboto", sans-serif
-  --secondary-font:"Raleway", sans-serif
+  --main-font:"Roboto", sans-serif;
+  --secondary-font:"Raleway", sans-serif;
   /* accent color */
-  --accent-color: #2196F3,
+  --accent-color: #2196F3;
+  --accent-color-btn:#188CE8;
   /* light background theme */
-  --primary-bg-white: #ffffff
+  --primary-bg-white: #ffffff;
+  --secondary-white-color: #757575;
   /* dark background theme */
-
-  --primary-bg-dark: #2f303a
+  --primary-bg-dark: #2f303a;
+  --secondary-dark-color: #212121;
 }
 /* body */
   body {
@@ -44,7 +46,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #2196F3;
+color: var(--accent-color);
 }
 .nav {
 
@@ -69,7 +71,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: #212121;
+color: var(--secondary-dark-color);
 text-decoration: none;
 }
 .header-contacts{
@@ -89,7 +91,7 @@ text-decoration: none;
 /* main */
 /* hero */
 .hero{
-background-color: #2f303a;
+background-color: var(--primary-bg-dark);
 }
 .hero-title{
 font-family: var(--main-font);
@@ -97,7 +99,7 @@ font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 
-color: #FFFFFF;
+color: var(--primary-bg-white);
 
 }
 .hero-button-main-button{
@@ -107,12 +109,12 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 
-color: #FFFFFF;
-background-color: #2196F3;
+color: var(--primary-bg-white);
+background-color: var(--accent-color);
 }
 .hero-button-main-button:hover,
 .hero-button-main-button:focus{
-  color:#188CE8
+  color:var(--accent-color-btn)
 };
 
 /* feature */
@@ -127,7 +129,7 @@ font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--secondary-dark-color);
 
 }
 .section-list{
@@ -143,7 +145,7 @@ font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--secondary-dark-color);
 }
 .section-txt{
 font-family: var(--main-font);
@@ -152,22 +154,22 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--secondary-white-color);
 
 }
 /* footer */
 .footer{
-background-color: #2f303a;
+background-color: var(--primary-bg-dark);
 }
 .header-link-footer{
-  color: var(--secondary-font);
+color: var(--secondary-font);
 font-family: "Raleway",sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #FFFFFF;
+color: var(--primary-bg-white);
 text-decoration: none;
 }
 .web{
@@ -177,20 +179,43 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #2196F3;
-}
-.footer-studio{
-
+color:var(--accent-color);
 }
 .addres{
 
 }
-.addres-city{
+.addres-list-item{
+list-style: none;
+
+}
+.addres-city {
+font-style: normal;
+font-family: var(--main-font);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--primary-bg-white);
+text-decoration: none;
 
 }
 .addres-mail{
-
+font-family: 
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
 .addres-tel{
-
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
