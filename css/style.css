@@ -17,16 +17,14 @@
 
   /* Темная тема фона */
   --primary-bg-dark: #2f303a;
-
-
 }
 /* body */
-body{
+body {
   font-family: var(--main-font)
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #212121;
+  font-size : 14px;
+  line-height : 1.71;
+  letter-spacing : 0.03em;
+  color : #212121;
 }
 
 /* heder */
@@ -117,11 +115,11 @@ line-height: 1.87;
 letter-spacing: 0.06em;
 
 color: #FFFFFF;
-background-color: #188CE8;
+background-color: #2196F3;
 }
 .hero-button-main-button:hover,
 .hero-button-main-button:focus{
-  color:
+  color:#188CE8
 };
 
 /* feature */
