@@ -10,10 +10,12 @@
 
   --primary-bg-white: #ffffff;
   --secondary-white-color: #757575;
+  --third-white-color:#F5F4FA
   /* dark background theme */
 
   --primary-bg-dark: #2f303a;
   --secondary-dark-color: #212121;
+  /* -- */
 }
 
 /* body */
@@ -50,7 +52,9 @@ body {
 
   color: var(--accent-color);
 }
-
+.nav-link.current {
+  color: var(--accent-color);
+}
 .nav-list {
   list-style: none;
 }
@@ -145,7 +149,7 @@ body {
 }
 .section-txt {
   font-family: var(--main-font);
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -182,7 +186,7 @@ body {
 .addres-city {
   font-family: var(--main-font);
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -192,7 +196,7 @@ body {
 .addres-mail {
   font-family: var(--main-font);
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -202,7 +206,7 @@ body {
 .addres-tel {
   font-family: var(--main-font);
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -231,9 +235,27 @@ li.pointer {
 }
 .title-portfolio-subtext {
   font-family: var(--main-font);
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-white-color);
+}
+.all {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-bg-white);
+  background-color: var(--accent-color);
+}
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-dark-color);
+  background-color:var(--third-white-color);
 }
