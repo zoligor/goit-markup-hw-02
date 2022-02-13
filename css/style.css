@@ -107,6 +107,7 @@ body {
   line-height: 1.36;
 
   color: var(--primary-bg-white);
+  background-color: var(--primary-bg-dark);
 }
 .hero-button-main-button {
   font-family: var(--main-font);
