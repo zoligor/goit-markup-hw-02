@@ -1,13 +1,11 @@
-
 :root {
   /* main font */
-
-  --main-font:"Roboto", sans-serif;
-  --secondary-font:"Raleway", sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
   /* accent color */
 
-  --accent-color: #2196F3;
-  --accent-color-btn:#188CE8;
+  --accent-color: #2196f3;
+  --accent-color-btn: #188ce8;
   /* light background theme */
 
   --primary-bg-white: #ffffff;
@@ -19,39 +17,38 @@
 }
 
 /* body */
-  body {
-  font-family: var(--main-font)
-  font-size:14px;
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-dark-color)
-}
 
+  color: var(--secondary-dark-color);
+}
 /* heder */
 .header {
   background-color: var(--primary-bg-white);
-  
 }
 
 .header-link {
-color: var(--secondary-font);
-font-family: "Raleway",sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+  color: var(--secondary-font);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 
-color: #000000;
-text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
-.web { 
-font-family: var(--secondary-font);
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+.web {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .nav-list {
@@ -59,152 +56,149 @@ color: var(--accent-color);
 }
 
 .nav-link:hover,
-.nav-link:focus{
+.nav-link:focus {
   color: var(--accent-color);
 }
 
-.nav-link{
-font-family: var(--main-font);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+.nav-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
-color: var(--secondary-dark-color);
-text-decoration: none;
+  color: var(--secondary-dark-color);
+  text-decoration: none;
 }
-.header-contacts{
-list-style: none;
+.header-contacts {
+  list-style: none;
 }
 .header-contacts-mail:hover,
-.header-contacts-mail:focus{
+.header-contacts-mail:focus {
   color: var(--accent-color);
 }
-.header-contacts-mail{
+.header-contacts-mail {
   text-decoration: none;
 }
 
-.header-contacts-tel{
-text-decoration: none;
+.header-contacts-tel {
+  text-decoration: none;
 }
 /* main */
 /* hero */
-.hero{
-background-color: var(--primary-bg-dark);
+.hero {
+  background-color: var(--primary-bg-dark);
 }
-.hero-title{
-font-family: var(--main-font);
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
 
-color: var(--primary-bg-white);
-
+  color: var(--primary-bg-white);
 }
-.hero-button-main-button{
-font-family: var(--main-font);
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.06em;
+.hero-button-main-button {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 
-color: var(--primary-bg-white);
-background-color: var(--accent-color);
+  color: var(--primary-bg-white);
+  background-color: var(--accent-color);
 }
 .hero-button-main-button:hover,
-.hero-button-main-button:focus{
-  color:var(--accent-color-btn)
-};
+.hero-button-main-button:focus {
+  color: var(--accent-color-btn);
+}
 
 /* feature */
 /* what are you doing */
-.title, .section-title{
-font-family: var(--main-font);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-letter-spacing: 0.03em;
+.title,
+.section-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 
-color: var(--secondary-dark-color);
-
+  color: var(--secondary-dark-color);
 }
-.section-list{
-list-style: none;
+.section-list {
+  list-style: none;
 }
-.subtitle{
-font-family: var(--main-font);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+.subtitle {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 
-color: var(--secondary-dark-color);
+  color: var(--secondary-dark-color);
 }
-.section-txt{
-font-family: var(--main-font);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+.section-txt {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 
-color: var(--secondary-white-color);
-
+  color: var(--secondary-white-color);
 }
 /* footer */
-.footer{
-background-color: var(--primary-bg-dark);
+.footer {
+  background-color: var(--primary-bg-dark);
 }
-.header-link-footer{
-color: var(--secondary-font);
-font-family: "Raleway",sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+.header-link-footer {
+  color: var(--secondary-font);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 
-color: var(--primary-bg-white);
-text-decoration: none;
+  color: var(--primary-bg-white);
+  text-decoration: none;
 }
-.web{
-font-family: var(--secondary-font);
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+.web {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 
-color:var(--accent-color);
+  color: var(--accent-color);
 }
-.addres-list-item{
-list-style: none;
+.addres-list-item {
+  list-style: none;
 }
-.addres-city{
-font-style: normal;
-font-family: var(--main-font);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--primary-bg-white);
-text-decoration: none;
-
+.addres-city {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-bg-white);
+  text-decoration: none;
 }
-.addres-mail{
-font-family: var(--main-font);
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
+.addres-mail {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
-.addres-tel{
-font-family: var(--main-font);
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
+.addres-tel {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
