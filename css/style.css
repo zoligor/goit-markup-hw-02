@@ -54,10 +54,13 @@ body {
 .nav-list {
   list-style: none;
 }
+.nav-link {
+  color: var(--accent-color);
+}
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .nav-link {
@@ -80,8 +83,12 @@ body {
 .header-contacts-mail {
   text-decoration: none;
 }
-
+.header-contacts-tel:hover,
+.header-contacts-tel:focus {
+  color: var(--accent-color);
+}
 .header-contacts-tel {
+  color: var(--secondary-white-color);
   text-decoration: none;
 }
 /* main */
