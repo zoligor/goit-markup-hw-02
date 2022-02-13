@@ -10,7 +10,7 @@
 
   --primary-bg-white: #ffffff;
   --secondary-white-color: #757575;
-  --third-white-color:#F5F4FA
+  --third-white-color: #f5f4fa;
   /* dark background theme */
 
   --primary-bg-dark: #2f303a;
@@ -107,7 +107,7 @@ body {
   line-height: 1.36;
 
   color: var(--primary-bg-white);
-  background-color: var(--primary-bg-dark);
+  background-color: var();
 }
 .hero-button-main-button {
   font-family: var(--main-font);
@@ -258,5 +258,5 @@ li.pointer {
   letter-spacing: 0.03em;
 
   color: var(--secondary-dark-color);
-  background-color:var(--third-white-color);
+  background-color: var(--third-white-color);
 }
