@@ -33,14 +33,13 @@ body {
 }
 
 .header-link {
-  color: var(--secondary-font);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  color: #000000;
+  color: var(--secondary-font);
   text-decoration: none;
 }
 .web {
@@ -52,23 +51,18 @@ body {
 
   color: var(--accent-color);
 }
-.nav-link.current {
+.nav-link {
   color: var(--accent-color);
 }
 .nav-list {
   list-style: none;
 }
-.nav-link {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  background-color: var(--accent-color);
-}
-
 .nav-link {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -85,6 +79,12 @@ body {
   color: var(--accent-color);
 }
 .header-contacts-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-white-color);
   text-decoration: none;
 }
 .header-contacts-tel:hover,
@@ -101,16 +101,16 @@ body {
   background-color: var(--primary-bg-dark);
 }
 .hero-title {
-  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
 
   color: var(--primary-bg-white);
   background-color: var();
 }
 .hero-button-main-button {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -118,29 +118,54 @@ body {
 
   color: var(--primary-bg-white);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 .hero-button-main-button:hover,
 .hero-button-main-button:focus {
-  color: var(--accent-color-btn);
+  background-color: var(--accent-color-btn);
 }
 
 /* feature */
 /* what are you doing */
-.title,
-.section-title {
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-
-  color: var(--secondary-dark-color);
-}
 .section-list {
   list-style: none;
 }
 .subtitle {
-  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondary-dark-color);
+}
+.section-txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-white-color);
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-dark-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-dark-color);
+}
+.subtitle-teams {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -148,11 +173,11 @@ body {
 
   color: var(--secondary-dark-color);
 }
-.section-txt {
-  font-family: var(--main-font);
+.section-txt-teams {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: var(--secondary-white-color);
@@ -215,18 +240,38 @@ body {
   text-decoration: none;
 }
 /* Портфолио */
-li.pointer {
+
+.btn {
   cursor: pointer;
 }
-.btn {
+.section-btn {
   list-style: none;
 }
+.section-btn-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-dark-color);
+  background-color: var(--third-white-color);
+  cursor: pointer;
+}
+.section-btn :hover,
+.section-btn :focus {
+  color: var(--primary-bg-white);
+  background-color: var(--accent-color);
+}
+
+/* our projects */
 .projects {
   list-style: none;
 }
+.projects-card {
+  text-decoration: none;
+}
 
 .title-portfolio {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -235,10 +280,8 @@ li.pointer {
   color: var(--secondary-dark-color);
 }
 .title-portfolio-subtext {
-  font-family: var(--main-font);
-
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-white-color);
 }
