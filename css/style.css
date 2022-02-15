@@ -11,6 +11,8 @@
   --primary-bg-white: #ffffff;
   --secondary-white-color: #757575;
   --third-white-color: #f5f4fa;
+  --fourth-white-color: rgba(255, 255, 255, 0.6);
+
   /* dark background theme */
 
   --primary-bg-dark: #2f303a;
@@ -33,7 +35,7 @@ body {
 }
 
 .header-link {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -187,8 +189,7 @@ body {
   background-color: var(--primary-bg-dark);
 }
 .header-link-footer {
-  color: var(--secondary-font);
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -219,6 +220,10 @@ body {
   color: var(--primary-bg-white);
   text-decoration: none;
 }
+.addres-city:hover,
+.addres-city:focus {
+  color: var(--accent-color);
+}
 .addres-mail {
   font-family: var(--main-font);
   font-style: normal;
@@ -229,6 +234,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+.addres-mail:hover,
+.addres-mail:focus {
+  color: var(--accent-color);
+}
 .addres-tel {
   font-family: var(--main-font);
   font-style: normal;
@@ -236,14 +245,15 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--fourth-white-color);
   text-decoration: none;
+}
+.addres-tel:hover,
+.addres-tel:focus {
+  color: var(--accent-color);
 }
 /* Портфолио */
 
-.btn {
-  cursor: pointer;
-}
 .section-btn {
   list-style: none;
 }
@@ -285,15 +295,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-white-color);
 }
-.all {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-
-  color: var(--primary-bg-white);
-  background-color: var(--accent-color);
-}
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -302,4 +303,5 @@ body {
 
   color: var(--secondary-dark-color);
   background-color: var(--third-white-color);
+  cursor: pointer;
 }
