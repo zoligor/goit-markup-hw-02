@@ -211,9 +211,7 @@ body {
   list-style: none;
 }
 .addres-city {
-  font-family: var(--main-font);
   font-style: normal;
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -225,9 +223,7 @@ body {
   color: var(--accent-color);
 }
 .addres-mail {
-  font-family: var(--main-font);
   font-style: normal;
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -239,9 +235,7 @@ body {
   color: var(--accent-color);
 }
 .addres-tel {
-  font-family: var(--main-font);
   font-style: normal;
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
